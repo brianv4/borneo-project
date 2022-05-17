@@ -1,5 +1,9 @@
 module.exports = {
-    content: ["index.html"],
+    content: [
+        "index.html",
+        "webinar.html",
+        "virtual_expo.html",
+    ],
     darkMode: "class",
     theme: {
         container: {

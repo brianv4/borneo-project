@@ -12,6 +12,19 @@
         @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:wght@400;500&family=Ubuntu:wght@300;700&display=swap");
     </style>
 
+    <!-- DARK MODE -->
+    <script>
+        if (
+            localStorage.theme === "dark" ||
+            (!("theme" in localStorage) &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
+    </script>
+
     <!-- Carousel -->
     <style>
         .mySlides {

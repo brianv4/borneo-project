@@ -5,6 +5,8 @@ module.exports = {
         "virtual_expo.html",
         "news.html",
         "event.html",
+        "login.html",
+        "register.html",
     ],
     darkMode: "class",
     theme: {
